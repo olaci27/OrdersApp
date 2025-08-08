@@ -4,10 +4,10 @@
 const PRICE = 20000; // COP por unidad
 const CURRENCY = "COP";
 const ITEMS = [
-  { id: 1, name: "Pollo Costilla",  img: "assets/dish.jpg" },
-  { id: 2, name: "Pollo Tocino",    img: "assets/dish.jpg" },
-  { id: 3, name: "Tocino Costilla", img: "assets/dish.jpg" },
-  { id: 4, name: "Tocino Pollo",    img: "assets/dish.jpg" },
+  { id: 1, name: "Pollo Tocino",  img: "assets/Pollo_Tocino.jpg" },
+  { id: 2, name: "Cerdo Tocino",  img: "assets/CerdoT.jpg" },
+  { id: 3, name: "Cerdo Costilla", img: "assets/CerdoC.jpg" },
+  { id: 4, name: "Pollo Costilla", img: "assets/Pollo_Costilla.jpg" },
 ];
 const INITIAL_QTY = 0; // arranca en 0 como pediste
 
