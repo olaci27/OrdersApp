@@ -76,7 +76,7 @@ header h1{
 .card-total{ font-weight:900; font-size:20px; }
 
 /* Franja inferior */
-.footer{ position: sticky; bottom: 24px; }
+.footer{ position: sticky; bottom: 40px; }
 .pill{
   background:#fff; border-radius: 40px; padding:14px 18px; box-shadow: var(--shadow); border:1px solid #eee;
 }
