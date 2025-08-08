@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FoodApp — Menú</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Fondo con gradiente -->
+  <div class="bg"></div>
+
+  <!-- Encabezado -->
+  <header class="container">
+    <h1>Menu</h1>
+  </header>
+
+  <!-- Contenido principal: aquí el JS inyecta las tarjetas -->
+  <main class="container">
+    <section class="grid grid-2" id="cards"><!-- tarjetas aquí --></section>
+  </main>
+
+  <!-- Franja inferior con totales y botón siguiente -->
+  <footer class="footer container">
+    <div class="pill">
+      <div class="row">
+        <div class="footer-left">
+          <span><strong>Cantidad:</strong> <span id="qtyTotal">0</span></span>
+          <span><strong>Subtotal:</strong> <span id="subtotal">$0</span></span>
+        </div>
+        <button id="nextBtn" class="btn">Siguiente</button>
+      </div>
+      <!-- Mensaje de error si no hay selección -->
+      <div id="menuError" class="error" style="display:none;"></div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
